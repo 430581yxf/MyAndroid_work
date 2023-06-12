@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:columnCount="2"
+    tools:context=".playVedios.Fragment3">
+    <Button
+        android:id="@+id/video_entry"
+        android:layout_columnWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/short_video"
+        android:fontFamily="@font/iconfont"
+        android:textSize="60sp"
+        android:background="@color/transplant"
+        tools:ignore="MissingConstraints"></Button>
+    <Button
+        android:layout_columnWeight="1"
+        android:id="@+id/more_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more_operate"
+        android:fontFamily="@font/iconfont"
+        android:textSize="60sp"
+        android:background="@color/transplant"
+        tools:ignore="MissingConstraints"></Button>
+
+</GridLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginAndRegister.RegisterActivity"
+    android:padding="30dp">
+        <!-- 用户名部分 -->
+
+        <TextView
+            android:id="@+id/label_username"
+            app:layout_constraintBottom_toBottomOf="@+id/usename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="用户名:"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/usename"
+            android:layout_marginTop="80dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/usepwd2"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="0dp"
+            app:layout_constraintHorizontal_weight="1"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:ignore="MissingConstraints" />
+        <!-- 密码部分 -->
+
+        <TextView
+            android:id="@+id/label_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/usepwd"
+            app:layout_constraintLeft_toLeftOf="@+id/label_username"
+            android:textSize="20sp"
+            android:text="密 码:"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/usepwd"
+            android:layout_marginTop="15dp"
+            android:layout_width="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/usename"
+            app:layout_constraintHorizontal_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/usepwd2"
+            tools:ignore="MissingConstraints" />
+        <!-- 确认密码部分 -->
+        <TextView
+            android:id="@+id/label_ok_pwd"
+            app:layout_constraintBottom_toBottomOf="@+id/usepwd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认密码:"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/usepwd2"
+            android:layout_marginTop="15dp"
+            android:layout_width="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/usepwd"
+            app:layout_constraintHorizontal_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/label_ok_pwd"
+            tools:ignore="MissingConstraints" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            app:layout_constraintTop_toBottomOf="@+id/usepwd2"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            android:padding="30dp">
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/reg_btn_click"
+                    android:text="注册" />
+                <Button
+                    android:background="@drawable/reg_btn_click"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/back_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="返回登录"
+                    android:textStyle="bold" />
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

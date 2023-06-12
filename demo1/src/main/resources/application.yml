@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+spring:
+  application:
+    name: demo1
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://bj-cdb-f6yh0fje.sql.tencentcdb.com:63845/Android_work?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&tinyInt1isBit=false
+      username: "root"
+      password: "430581yxf"
+mybatis-plus:
+  configuration:
+    #???????????????????????????????????????
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+
+reggie:
+  path: D:\upload\

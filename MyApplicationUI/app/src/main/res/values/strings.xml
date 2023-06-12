@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="thumb_up">&#xec8c;</string>
+    <string name="comment">&#xe63a;</string>
+    <string name="share">&#xe62d;</string>
+    <string name="reserve">&#xe8c6;</string>
+    <string name="setting_icon">&#xe64b;</string>
+    <string name="prim_page">&#xe600;</string>
+    <string name="search_icon">&#xe651;</string>
+    <string name="prim_page02">&#xe610;</string>
+    <string name="my_icon">&#xe619;</string>
+    <string name="download_icon">&#xe66d;</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment2">FragmentActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="back_btn">&#xe601;</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="photos">&#xe7be;</string>
+    <string name="camera">&#xe9f3;</string>
+    <string name="videocall">&#xe7dd;</string>
+    <string name="location">&#xe8ff;</string>
+    <string name="redbag">&#xe609;</string>
+    <string name="pay">&#xe69e;</string>
+    <string name="voiceinput">&#xe905;</string>
+    <string name="Myreserve">&#xe646;</string>
+    <string name="namecard">&#xe6c3;</string>
+    <string name="file">&#xeac6;</string>
+    <string name="music">&#xe62f;</string>
+    <string name="display_music">&#xe63d;</string>
+    <string name="stop_music">&#xe602;</string>
+    <string name="heart">&#xe603;</string>
+    <string name="last_music">&#xe63c;</string>
+    <string name="next_music">&#xe63e;</string>
+    <string name="down_back">&#xe608;</string>
+    <string name="short_video">&#xe607;</string>
+    <string name="more_operate">&#xe683;</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <corners android:radius="0dp" />   <!-- 设置圆角弧度 -->
+      <!-- 设置背景颜色 -->
+    <stroke
+        android:width="0dp"
+        android:color="#fff" />
+    <gradient
+        android:angle="-45"
+        android:type="linear"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="@color/wheat"
+        android:startColor="#8B619c"
+        />
+</shape>

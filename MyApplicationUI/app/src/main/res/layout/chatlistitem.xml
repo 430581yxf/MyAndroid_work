@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/chat_item_back"
+    android:clickable="true"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+    <ImageButton
+        android:background="@drawable/notice_back"
+    android:id="@+id/FriendAvatar"
+        android:scaleType="center"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+    android:id="@+id/FriendName"
+        android:layout_marginLeft="10dp"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintRight_toRightOf="parent"
+        android:gravity="left"
+        android:text="名字"
+    app:layout_constraintLeft_toRightOf="@+id/FriendAvatar"
+    android:textSize="25sp"
+    android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/notic_message"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FriendName"
+        android:background="@drawable/notice_back"
+        android:text="1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"></TextView>
+    <TextView
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2023-05-01"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="#097E72"
+        tools:ignore="MissingConstraints"></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
